@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>Demo Menu</title>
+    </head>
+    <body>
+		<div id="menuprincipal">
+			<div id="wrapperMenu">
+				<div class="scroller">
+					<div id="contenidoMenu"></div>
+				</div>
+			</div>
+		</div>
+    	<div id="cuerpo">
+	        <div id="header"><a href="javascript:menu('menu');"><div class="btn">MENU</div></a><img class="logo" src="img/logo.png" /></div>
+			<div id="wrapper">
+				<div class="scroller">
+					<div id="contenidoCuerpo"></div>
+				</div>
+			</div>
+		</div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/fastclick.js"></script>
+        <script type="text/javascript" src="js/iscroll.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+    </body>
+</html>

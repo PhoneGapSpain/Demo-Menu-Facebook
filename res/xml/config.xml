@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        id        = "io.cordova.helloCordova"
+        version   = "2.0.0">
+    <name>Ejemplo Menu</name>
+
+    <description>
+        Ejemplo de menu Facebook
+    </description>
+
+    <author href="http://www.phonegapspain.com" email="contacto@phonegapspain.com">
+        Apache Cordova Team
+    </author>
+
+    <access origin="*"/>
+
+    <content src="index.html" />
+
+    <preference name="loglevel" value="DEBUG" />
+
+    <feature name="Device">
+      <param name="android-package" value="org.apache.cordova.Device"/>
+    </feature>
+</widget>
